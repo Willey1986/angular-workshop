@@ -1,0 +1,19 @@
+<!--<button (click)="add()">Add</button>-->
+<!--<button (click)="remove()">Delete</button>-->
+
+<!--<h2>Items in List {{myArray.length}}</h2>-->
+<!--<h3 *ngIf="myArray.length === 0">List is empty</h3>-->
+<!--<h3 *ngIf="myArray.length > 0">List is NOT empty</h3>-->
+
+<!--<div *ngFor="let item of myArray">{{item}}</div>-->
+
+<!---------------------------------------------------------------->
+
+<button (click)="add()">Add</button>
+<button (click)="remove()">Delete</button>
+
+<h2>Items in List {{myArray | count}}</h2>
+<h3 *ngIf="myArray | isEmpty">List is empty</h3>
+<h3 *ngIf="myArray | isEmpty | negate">List is NOT empty</h3>
+
+<div *ngFor="let item of myArray">{{item}}</div>
