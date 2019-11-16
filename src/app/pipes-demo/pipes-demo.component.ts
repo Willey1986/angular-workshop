@@ -4,7 +4,7 @@ import {isEmpty} from 'lodash';
 @Component({
   selector: 'app-pipes-demo',
   templateUrl: './pipes-demo.component.html',
-  styleUrls: ['./pipes-demo.component.scss']
+  styles: []
 })
 export class PipesDemoComponent {
 

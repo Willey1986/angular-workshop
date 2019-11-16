@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {CountPipe, IsEmptyPipe, NegatePipe, PipesDemoComponent} from './pipes-demo/pipes-demo.component';
+import {CountPipe, IsEmptyPipe, NegatePipe, PipesDemoComponent} from './pipes-demo.component';
 
 
 

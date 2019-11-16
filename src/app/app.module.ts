@@ -8,6 +8,9 @@ import {DirectivesDemoModule} from './directives-demo/directives-demo.module';
 import {ComponentsDemoModule} from './components-demo/components-demo.module';
 import {ContainersDemoModule} from './containers-demo/containers-demo.module';
 import {RxjsDemoModule} from './rxjs-demo/rxjs-demo.module';
+import { ServicesDemoComponent } from './services-demo/services-demo.component';
+import { ServicesDemoModule } from './services-demo/services-demo.module';
+import { ArchitectureDemoModule } from './architecture-demo/architecture-demo.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,8 @@ import {RxjsDemoModule} from './rxjs-demo/rxjs-demo.module';
     ContainersDemoModule,
     PipesDemoModule,
     DirectivesDemoModule,
+    ServicesDemoModule,
+    ArchitectureDemoModule,
     RxjsDemoModule
   ],
   providers: [],
